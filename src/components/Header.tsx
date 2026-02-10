@@ -64,6 +64,15 @@ export default function Header() {
           <NavLink href="/about">About</NavLink>
           <NavLink href="/#how-it-works">How it Works</NavLink>
           <NavLink href="/#faq">FAQ</NavLink>
+          <a
+            href="https://buymeacoffee.com/santhoshworks"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-full bg-yellow-400 px-3 py-1.5 text-sm font-medium text-yellow-900 transition-all hover:bg-yellow-300 hover:scale-105"
+          >
+            <span>☕</span>
+            <span>Buy me a coffee</span>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
