@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-gray-200 bg-gray-50 dark:border-gray-800 dark:bg-gray-900">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-5">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-2">
@@ -41,20 +41,41 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Tools */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white">
-              Quick Links
+              Tools
             </h3>
             <ul className="mt-4 space-y-3">
               <li>
-                <FooterLink href="/">Home</FooterLink>
+                <FooterLink href="/">Icon Generator</FooterLink>
+              </li>
+              <li>
+                <FooterLink href="/chrome-extension-icon-generator">Chrome Extension Icons</FooterLink>
+              </li>
+              <li>
+                <FooterLink href="/social-media-image-generator">Social Media Images</FooterLink>
+              </li>
+              <li>
+                <FooterLink href="/windows-app-icon-generator">Windows Icons</FooterLink>
+              </li>
+            </ul>
+          </div>
+
+          {/* Resources */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900 dark:text-white">
+              Resources
+            </h3>
+            <ul className="mt-4 space-y-3">
+              <li>
+                <FooterLink href="/app-icon-sizes">Icon Sizes Guide</FooterLink>
+              </li>
+              <li>
+                <FooterLink href="/how-to-create-app-icon">Design Guide</FooterLink>
               </li>
               <li>
                 <FooterLink href="/about">About</FooterLink>
-              </li>
-              <li>
-                <FooterLink href="/#how-it-works">How it Works</FooterLink>
               </li>
               <li>
                 <FooterLink href="/#faq">FAQ</FooterLink>
@@ -92,6 +113,18 @@ export default function Footer() {
               aria-label="love"
             />{' '}
             for developers worldwide
+          </div>
+
+          {/* ThoughtMap attribution */}
+          <div className="text-sm text-gray-500 dark:text-gray-400">
+            A project by{' '}
+            <a
+              href="https://thoughtmap.space"
+              rel="dofollow"
+              className="font-medium text-blue-600 transition-colors hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+            >
+              ThoughtMap
+            </a>
           </div>
         </div>
       </div>

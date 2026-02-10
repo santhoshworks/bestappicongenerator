@@ -248,8 +248,41 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* Built by ThoughtMap Section */}
         <section className="py-20">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
+              Built by ThoughtMap
+            </h2>
+            <div className="mt-6 space-y-4 text-gray-600 dark:text-gray-400">
+              <p>
+                Best App Icon Generator is built and maintained by the team at{' '}
+                <a
+                  href="https://thoughtmap.space"
+                  rel="dofollow"
+                  className="font-medium text-blue-600 transition-colors hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+                >
+                  ThoughtMap
+                </a>
+                . We&apos;re passionate about creating tools that make developers&apos; lives easier.
+              </p>
+              <p>
+                This is a free tool for the developer community. We believe that essential
+                development utilities should be accessible to everyone, regardless of budget.
+                By offering this tool at no cost, we hope to help indie developers, startups,
+                and teams of all sizes ship their apps faster.
+              </p>
+              <p>
+                At ThoughtMap, we&apos;re building a suite of developer-focused tools and resources.
+                If you find this tool helpful, check out our other projects and let us know
+                what you&apos;d like us to build next!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-20 bg-gray-50 dark:bg-gray-900">
           <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
               Ready to Generate Your Icons?
