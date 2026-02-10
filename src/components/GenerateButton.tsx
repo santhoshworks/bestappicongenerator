@@ -31,7 +31,7 @@ export default function GenerateButton({
     try {
       // Create form data
       const formData = new FormData();
-      formData.append('image', image.file);
+      formData.append('file', image.file);
       formData.append('platforms', JSON.stringify(selectedPlatforms));
 
       // Simulate progress for UX (actual progress depends on server)
@@ -40,7 +40,7 @@ export default function GenerateButton({
       }, 300);
 
       // Make API request
-      const response = await fetch('/api/generate', {
+      const response = await fetch('/api/generate-icons', {
         method: 'POST',
         body: formData,
       });
